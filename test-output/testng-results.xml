@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="11" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan department" duration-ms="195" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+    <groups>
+      <group name="Smoke">
+        <method signature="S138Testng.Demo1()[pri:0, instance:testngPackage.S138Testng@65e2dbf3]" name="Demo1" class="testngPackage.S138Testng"/>
+        <method signature="Test2.secondtest()[pri:0, instance:testngPackage.Test2@4f970963]" name="secondtest" class="testngPackage.Test2"/>
+        <method signature="Test3.Mobileloginincarloan()[pri:0, instance:testngPackage.Test3@5a8806ef]" name="Mobileloginincarloan" class="testngPackage.Test3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Personal loan" duration-ms="124" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+      <class name="testngPackage.Test2">
+        <test-method status="PASS" signature="secondtest()[pri:0, instance:testngPackage.Test2@4f970963]" name="secondtest" duration-ms="1" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondtest -->
+      </class> <!-- testngPackage.Test2 -->
+      <class name="testngPackage.Test4">
+        <test-method status="PASS" signature="BeforeMethodOnly()[pri:0, instance:testngPackage.Test4@2b9627bc]" name="BeforeMethodOnly" is-config="true" duration-ms="1" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodOnly -->
+        <test-method status="PASS" signature="MobilelogininHomeloan()[pri:0, instance:testngPackage.Test4@2b9627bc]" name="MobilelogininHomeloan" duration-ms="8" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilelogininHomeloan -->
+        <test-method status="PASS" signature="AfterMethodOnly()[pri:0, instance:testngPackage.Test4@2b9627bc]" name="AfterMethodOnly" is-config="true" duration-ms="1" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodOnly -->
+        <test-method status="PASS" signature="BeforeMethodOnly()[pri:0, instance:testngPackage.Test4@2b9627bc]" name="BeforeMethodOnly" is-config="true" duration-ms="0" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodOnly -->
+        <test-method status="PASS" signature="WebloginHomeLoan(java.lang.String)[pri:0, instance:testngPackage.Test4@2b9627bc]" name="WebloginHomeLoan" duration-ms="2" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+        <test-method status="PASS" signature="AfterMethodOnly()[pri:0, instance:testngPackage.Test4@2b9627bc]" name="AfterMethodOnly" is-config="true" duration-ms="1" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodOnly -->
+        <test-method status="PASS" signature="BeforeMethodOnly()[pri:0, instance:testngPackage.Test4@2b9627bc]" name="BeforeMethodOnly" is-config="true" duration-ms="0" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodOnly -->
+        <test-method status="PASS" signature="ApinapiHomeloan()[pri:0, instance:testngPackage.Test4@2b9627bc]" name="ApinapiHomeloan" duration-ms="3" started-at="2020-05-28T18:09:53 IST" depends-on-methods="testngPackage.Test4.MobilelogininHomeloan, testngPackage.Test4.WebloginHomeLoan" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApinapiHomeloan -->
+        <test-method status="PASS" signature="AfterMethodOnly()[pri:0, instance:testngPackage.Test4@2b9627bc]" name="AfterMethodOnly" is-config="true" duration-ms="5" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodOnly -->
+        <test-method status="PASS" signature="Loginaftertest()[pri:0, instance:testngPackage.Test4@2b9627bc]" name="Loginaftertest" is-config="true" duration-ms="1" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginaftertest -->
+      </class> <!-- testngPackage.Test4 -->
+      <class name="testngPackage.S138Testng">
+        <test-method status="PASS" signature="Demo2()[pri:0, instance:testngPackage.S138Testng@65e2dbf3]" name="Demo2" is-config="true" duration-ms="0" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+        <test-method status="PASS" signature="Demo()[pri:0, instance:testngPackage.S138Testng@65e2dbf3]" name="Demo" duration-ms="13" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="Demo1()[pri:0, instance:testngPackage.S138Testng@65e2dbf3]" name="Demo1" duration-ms="6" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+      </class> <!-- testngPackage.S138Testng -->
+    </test> <!-- Personal loan -->
+    <test name="Car loan" duration-ms="17" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+      <class name="testngPackage.Test2">
+        <test-method status="PASS" signature="Aftersuitonly()[pri:0, instance:testngPackage.Test2@4f970963]" name="Aftersuitonly" is-config="true" duration-ms="0" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftersuitonly -->
+      </class> <!-- testngPackage.Test2 -->
+      <class name="testngPackage.Test4">
+        <test-method status="PASS" signature="Beforesuitonly()[pri:0, instance:testngPackage.Test4@2b9627bc]" name="Beforesuitonly" is-config="true" duration-ms="13" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforesuitonly -->
+      </class> <!-- testngPackage.Test4 -->
+      <class name="testngPackage.Test3">
+        <test-method status="PASS" signature="MobileSIGNIN()[pri:0, instance:testngPackage.Test3@5a8806ef]" name="MobileSIGNIN" duration-ms="1" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSIGNIN -->
+        <test-method status="PASS" signature="MobileSIGNOut()[pri:0, instance:testngPackage.Test3@5a8806ef]" name="MobileSIGNOut" duration-ms="3" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSIGNOut -->
+        <test-method status="PASS" signature="Mobileloginincarloan()[pri:0, instance:testngPackage.Test3@5a8806ef]" name="Mobileloginincarloan" duration-ms="1" started-at="2020-05-28T18:09:53 IST" finished-at="2020-05-28T18:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileloginincarloan -->
+      </class> <!-- testngPackage.Test3 -->
+    </test> <!-- Car loan -->
+  </suite> <!-- Loan department -->
+</testng-results>
